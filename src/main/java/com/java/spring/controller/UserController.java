@@ -47,4 +47,9 @@ public class UserController {
 
         return ResponseEntity.ok(res);
     }
+
+    @GetMapping("/test")
+    public String getString() {
+        return "This API is working!";
+    }
 }
